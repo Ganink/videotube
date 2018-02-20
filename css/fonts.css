@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('../fonts/icomoon.eot');
+    src: url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*='icon-']:before {
+    display: inline-block;
+    font-family: 'myFont';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150%;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class*='icon-']:hover {
+    color: rgb(250, 17, 17);
+}
+
+.icon-1:before {
+    content: '\43';
+}
+
+.icon-2:before {
+    content: '\42';
+}
+
+.icon-3:before {
+    content: '\46';
+}
+
+.icon-4:before {
+    content: '\45';
+}
+
+.icon-5:before {
+    content: '\52';
+}
+
+.icon-6:before {
+    content: '\53';
+}
+
+.icon-7:before {
+    content: '\49';
+}
+
+.icon-8:before {
+    content: '\44';
+}
+
+.icon-9:before {
+    content: '\41';
+}
+.icon-10:before{
+    content: '\50';
+}
+.icon-11:before{
+    content: '\51';
+}
+.icon-12:before{
+    content: '\55';
+}
+.icon-13:before{
+    content: '\54';
+}

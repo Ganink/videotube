@@ -1,0 +1,134 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    border: 1px solid #222;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+.icon-9 {
+    margin-left: 10%;
+}
+
+.section {
+    width: 75%;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.section-body {
+    width: 100%;
+    border: 1px solid #222;
+    background-color: #000;
+    margin: 0 auto;
+    padding: .5%;
+    padding-bottom: 0;
+}
+
+.section-controls {
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #222;
+    background-color: #222;
+    display: flex;
+    border-bottom: 1px dashed #000;
+}
+
+.controls {
+    font-size: 12px;
+    text-align: center;
+    margin: 1% auto;
+}
+
+.title-media{
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+}
+
+.title-list {
+    font-size: 150%;
+}
+
+.list-container {
+    width: 25%;
+    border: 1px solid #222;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+}
+
+.list-card {
+    margin-top: 1%;
+    border: 2px solid #222;
+    padding: 1%;
+    text-decoration: none;
+    font-family: calibri;
+    border-radius: 1px 1px 2px 2px;
+    padding: 3%;
+}
+
+.list-card:hover {
+    box-shadow: 1px 4px 8px 1px rgba(83, 7, 7, 0.356), 1px 6px 20px 1px rgba(83, 7, 7, 0.356);
+    color: #fff;
+    background-color: #222;
+}
+
+.footer {
+    width: 100%;
+    border: 1px solid #222;
+    background-color: rgb(211, 211, 211);
+    padding: 1%;
+    text-align: centeR;
+}
+
+.footer p:hover {
+    color: red;
+}
+
+.text-grey {
+    color: rgb(83, 83, 83);
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#vol {
+    width: 30%;
+    border: 1px solid #222;
+    height: 3%;
+}
+
+.logo {
+    width: 30%;
+}
+
+.div-is-active {
+    background-color: #222;
+    color: #fff;
+    box-shadow: 1px 4px 8px 1px rgba(83, 7, 7, 0.356), 1px 6px 20px 1px rgba(83, 7, 7, 0.356);
+}
+
+video {
+    max-width: 100%;
+    max-height: 70%;
+    margin: 0;
+    padding: 0;
+}
