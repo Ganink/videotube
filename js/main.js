@@ -25,7 +25,7 @@ window.onload = function () {
                 video = $('video');
                 desActive();
             }
-            if(element.id == '7'){
+            if(x == '7'){
                 let section = $('.section-body');
                 section.empty();
                 section.append(`<video alt="${element.title}" poster="${element.img}"><source src="${element.v1}" alt="${element.title}" type="${element.type}" id="${element.id}"><track src="media/translate/cc.vtt" srclang="es" label="Español" default></video>`);
