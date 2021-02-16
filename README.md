@@ -1,3 +1,3 @@
 # videotube
 
-https://ganink.github.io/videoTube
+https://ganink.github.io/VideoTube
